@@ -1,0 +1,52 @@
+
+
+:root {
+  --primary-color: #e63946;
+  --secondary-color: #1d3557;
+  --light-color: #f1faee;
+  --dark-color: #0b090a;
+  --accent-color: #457b9d;
+
+  --font-heading: "Oswald", sans-serif;
+  --font-body: "Roboto", sans-serif;
+}
+
+
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+}
+
+.hero {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/bike1.jpg") center/cover no-repeat;
+  height: 80vh;
+}
+
+
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-color);
+}
+
+
+
+footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
